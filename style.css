@@ -1,3 +1,42 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    height: 600px;
+}
 #name-color{
-    color: yellow;
+    color: tomato;
+}
+.div-size{
+    width: 40%;
+    float: left;
+    margin: 5%;
+    height: 100%;
+}
+.div-size img{
+    width: 100%;
+}
+.image-add{
+    background-image: url(image/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+
+}
+.box{
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+#image-add{
+    background-image: url(image/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#text-center{
+    text-align: center;
 }
