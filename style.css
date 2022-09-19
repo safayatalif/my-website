@@ -17,7 +17,7 @@ section{
 .div-size img{
     width: 100%;
 }
-.image-add{
+.first-background{
     background-image: url(image/header-bg.png);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -31,12 +31,46 @@ section{
     border-radius: 5px;
     color: white;
     font-weight: 700;
+    width: 30%;
+    text-align:center;
 }
-#image-add{
+#second-background{
     background-image: url(image/biography-bg.png);
     background-repeat: no-repeat;
     background-size: 100%;
 }
 #text-center{
     text-align: center;
+}
+.part{
+    width: 27%;
+    float: left;
+    margin: 3%;
+    border-radius:10px;
+}
+.part img{
+    width: 100%;
+}
+#third-background{
+background-image: url(image/latest-work-bg.png);
+background-repeat: no-repeat;
+background-size: 100%;
+}
+#Fourth-background{
+background-image: url(image/footer-bg.png);
+background-repeat: no-repeat;
+background-size: 100%;
+
+}
+.text-alain{
+    text-align: center;
+
+}
+.last-box{
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    margin: 5% 30%;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+
 }
